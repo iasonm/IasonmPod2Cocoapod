@@ -1,0 +1,11 @@
+framework module IasonmPod2 {
+  umbrella header "IasonmPod2.h"
+
+  export *
+  module * { export * }
+}
+
+module IasonmPod2.Swift {
+    header "IasonmPod2-Swift.h"
+    requires objc
+}
